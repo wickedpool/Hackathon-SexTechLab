@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Contact | ARMONIA</title>
+  <title>SEXTECHLAB</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -37,7 +37,7 @@
     <!-- Logo -->
     <a href="index.html" class="logo">
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>ARMONIA</b></span>
+      <img src="dist/img/logoclem.png" class="clemlogo1" />
     </a>
 
     <!-- Header Navbar -->
@@ -76,7 +76,9 @@
         </li>
           <!-- Control Sidebar Toggle Button -->
           <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		    <span class="hidden-xs">Inscription</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -101,9 +103,10 @@
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu">
-        <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="shop.html"><i class="fa fa-link"></i> <span>Boutique</span></a></li>
+        <li><a href="favoris.html"><i class="fa fa-rocket"></i> <span>Mes favoris</span></a></li>
+        <li><a href="label.html"><i class="fa fa-rocket"></i> <span>Obtenir le label</span></a></li>
+        <li><a href="forum.html"><i class="fa fa-rocket"></i> <span>Forum</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Assistance</span>
             <span class="pull-right-container">
@@ -111,9 +114,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="forum.html">Forum</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li class="active"><a href="contact.html">Nous contacter</a></li>
+            <li class="luna" ><a href="faq.html">FAQ</a></li>
+            <li class="luna"><a href="contact.html">Nous contacter</a></li>
           </ul>
         </li>
       </ul>
@@ -136,11 +138,12 @@
 
       <!-- Your Page Content Here -->
       <div class="form-group">
-                  <label for="exampleInputEmail1">Votre adresse email</label>
+		<br/>
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="entrez votre adresse email">
-                  <label for="exampleInputEmail1">Votre sujet</label>
+		<br/>
+		  <br/>
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="entrez le sujet de votre message">
-                  <label>Votre commentaire</label>
+		  <br/>
                   <textarea class="form-control" rows="3" placeholder="entrez votre commentaire"></textarea>
 	<br/>
 	<br/>

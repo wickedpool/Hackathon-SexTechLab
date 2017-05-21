@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'luna';
-    src: url('dist/font/Luna.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'luna';
+	src: url('dist/font/Luna.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'funsized';
-    src: url('dist/font/FunSized.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'funsized';
+	src: url('dist/font/FunSized.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 span {
@@ -26,6 +26,38 @@ span {
 	font-family: luna;
 	font-size: 0.7em;
 	color:grey;
+}
+
+.hometext {
+	font-family: funsized;
+	color:grey;
+	font-size:4em;
+	-ms-transform: rotate(7deg); /* IE 9 */
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
+}
+
+.banner1 {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	overflow: auto;
+}
+
+.banner2 {
+	position: static;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	overflow: auto;
 }
 
 .clemlogo {
