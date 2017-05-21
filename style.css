@@ -28,7 +28,13 @@ span {
 	color:grey;
 }
 
+.col-md-12 {
+	padding-left:0;	
+	padding-right:0;	
+}
+
 .hometext {
+	margin-left:3%;
 	font-family: funsized;
 	color:grey;
 	font-size:4em;
@@ -98,6 +104,7 @@ h1 {
 	font-family: funsized;
 	color: grey;
 	font-size: 3em;
+	margin-top:1px;
 }
 
 .cdc {
